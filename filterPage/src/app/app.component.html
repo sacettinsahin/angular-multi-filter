@@ -1,0 +1,24 @@
+<!--! PIPE KULLANARAK -->
+<!-- <input type="text" [(ngModel)]="filterText1" />
+<input type="text" [(ngModel)]="filterText2" />
+<ul>
+  <li
+    *ngFor="
+      let item of items | filter : filterText1 : filterText2 : 'name' : 'color'
+    "
+  >
+    name: {{ item.name }} ||| color:{{ item.color }}
+  </li>
+</ul> -->
+
+<!--! BUTON KULLANARAK -->
+<!-- <div>
+  <input [(ngModel)]="filter1" />
+  <input [(ngModel)]="filter2" />
+  <button (click)="filter()">Filter</button>
+  <ul>
+    <li *ngFor="let item of filteredItems">{{ item.name }}</li>
+  </ul>
+</div> -->
+
+<router-outlet></router-outlet>
